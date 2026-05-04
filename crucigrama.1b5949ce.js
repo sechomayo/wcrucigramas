@@ -1,0 +1,1 @@
+let params=new URLSearchParams(document.location.search),pass=params.get("pass"),fecha=params.get("fecha");inicializarCrucigrama(fecha,pass);

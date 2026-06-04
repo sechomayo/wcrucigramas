@@ -1,0 +1,1 @@
+function UTILvolverInicio(){let n=window.location.pathname;n.endsWith("/")&&(n=n.slice(0,-1));let i=n.substring(0,n.lastIndexOf("/"));window.location.href=window.location.origin+i}function UTILurlPrincipal(){let n=window.location.pathname;n.endsWith("/")&&(n=n.slice(0,-1));let i=n.substring(0,n.lastIndexOf("/"));return window.location.origin+i}

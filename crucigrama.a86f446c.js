@@ -1,0 +1,1 @@
+let params=new URLSearchParams(document.location.search),fecha=params.get("fecha"),tipo=params.get("tipo");const pass=window.localStorage.getItem("pass");pass||UTILvolverInicio(),"m"!==tipo&&"e"!==tipo&&UTILvolverInicio(),document.getElementsByTagName("body")[0].style.visibility="visible",inicializarCrucigrama(fecha,tipo,pass);

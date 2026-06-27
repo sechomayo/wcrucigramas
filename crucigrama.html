@@ -1,6 +1,7 @@
-<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><link href=crucigrama.dc7d61ff.css rel=stylesheet><script defer src=calendario.09a3b0ef.js></script><script defer src=crucigrama.9055bad5.js></script><script defer src=crucigrama.a86f446c.js></script><title>Crucigramas</title><body>
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><link href=crucigrama.b6573ad6.css rel=stylesheet><script defer src=calendario.09a3b0ef.js></script><script defer src=crucigrama.0d2763ba.js></script><script defer src=crucigrama.a86f446c.js></script><title>Crucigramas</title><body>
     <div class=container-fecha>
-        <h1 id=fecha></h1>
+        <h1 id=fecha>
+            </h1>
     </div>
     <div class=container-pistas>
         <input type=button id=pista-letra class=boton-pista value=LETRA>
@@ -9,13 +10,14 @@
     <div class=container-tablero>
         <div id=tablero class=tablero></div>
     </div>
-    <div id=container-definicion class=container-definicion>
-        <div id=flecha-anterior class=flecha-definicion>&lt;</div>
-        <p id=definicion></p>
-        <div id=flecha-siguiente class=flecha-definicion>&gt;</div>
-    </div>
     <div class=espacio-blanco></div>
     <div id=teclado class=teclado>
+        <div id=container-definicion class=container-definicion>
+            <div id=flecha-anterior class=flecha-definicion>&lt;</div>
+            <p id=definicion></p>
+            <div id=flecha-siguiente class=flecha-definicion>&gt;</div>
+        </div>
+        <div class=break></div>
         <div class=teclado-fila>
             <div class=container-tecla>
                 <div class=tecla>Q</div>
@@ -48,6 +50,7 @@
                 <div class=tecla>P</div>
             </div>
         </div>
+        <div class=break></div>
         <div class=teclado-fila>
             <div class=container-tecla>
                 <div class=tecla>A</div>
@@ -80,6 +83,7 @@
                 <div class=tecla>Ñ</div>
             </div>
         </div>
+        <div class=break></div>
         <div class=teclado-fila>
             <div class=container-tecla>
                 <div class=tecla>Z</div>
@@ -102,7 +106,7 @@
             <div class=container-tecla>
                 <div class=tecla>M</div>
             </div>
-            <div class=container-tecla>
+            <div class=container-tecla-borrar>
                 <div class=tecla-borrar>←</div>
             </div>
         </div>
